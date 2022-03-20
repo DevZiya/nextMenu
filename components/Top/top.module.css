@@ -1,0 +1,71 @@
+.topContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom:6vw;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5vw;
+  left: 0;
+  clip-path: ellipse(60% 50% at 50% 45%);
+  background: linear-gradient(to right, #ff6666, #cc0000);
+  height: 25vw;
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  margin-top:11vw;
+  width: 16vw;
+  height: 16vw;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.logoDiv {
+  clip-path: circle(50% at 50% 50%);
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid red;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: url("../../public/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 920px) {
+  .logoContainer {
+    width: 30vw;
+    height: 30vw;
+  }
+  .logoDiv{
+    width: 28vw;
+    height: 28vw;
+  }
+
+  .circle{
+    height: 35vw;
+    top: -10vw;
+  }
+}

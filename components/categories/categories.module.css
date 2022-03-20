@@ -1,0 +1,188 @@
+.catContainer {
+  padding: 0 50px;
+}
+
+.catContainer h1 {
+  font-size: max(1vw, 4vw);
+}
+
+#hideFalse::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+#hideFalse::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+#hideFalse {
+  height: 12vw;
+  overflow-y: none !important;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+#hideActive {
+  height: 0;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.smallCat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.smallCatChild {
+  background-color: #f5f5f5;
+  padding: 1vw 3vw;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+.smallCatChildActive {
+  background-color: red;
+  color: white;
+  padding: 1vw 3vw;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+.hideCat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.text p {
+  color: red;
+  font-weight: 500;
+  font-size: 1.8vw;
+}
+
+.icon {
+  font-size: 1.5vw;
+}
+
+.childCat {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2vw;
+  text-align: center;
+  gap: 10px;
+}
+
+.childCatActive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 2vw;
+  text-align: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.child {
+  background-color: #f5f5f5;
+  padding: 1vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+.activeChild {
+  background-color: red;
+  color: white;
+  padding: 1vw;
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 920px){
+  .catContainer h1 {
+    font-size: 5vw;
+  }
+  .smallCatChild {
+    padding: 2vw 4vw;
+    font-size: 2.8vw;
+  }
+  .smallCatChildActive {
+    padding: 2vw 4vw;
+    font-size: 2.8vw;
+  }
+
+  #hideFalse {
+    height: 15vw;
+  }
+
+  .text p {
+    font-size: 3vw;
+  }
+  
+  .child {
+    padding: 2vw 4vw;
+    font-size: 2.8vw;
+  }
+  .activeChild {
+    padding: 2vw 4vw;
+    font-size: 2.8vw;
+  }
+
+  .icon {
+    font-size: 2.5vw;
+  }
+
+}
+
+@media only screen and (max-width: 425px){
+  #hideFalse {
+    height: 15vw;
+    overflow-y:hidden
+  }
+}
