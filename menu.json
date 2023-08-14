@@ -1,0 +1,531 @@
+{
+  "data": [
+    {
+      "id": "set-1",
+      "name": "ÇAY SETİ",
+      "products": ["2Çay", "Plitka Şokolad", "Qarışıq Çərəz", "Mürəbbə"],
+      "price": "15",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-2",
+      "name": "ÇAY SETİ",
+      "products": ["2Çay", "Sinikers", "Mürəbbə", "Rulet", "Qəlyan"],
+      "price": "22",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-3",
+      "name": "GAME SET",
+      "products": [
+        "2Çay",
+        "Plitka Şokolad",
+        "Sinikers",
+        "Mürəbbə",
+        "Qarışıq Çərəz",
+        "Qəlyan",
+        "2 Saat PS 3/4"
+      ],
+      "price": "35",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-4",
+      "name": "X-SET",
+      "products": ["Çipsi", "2 Enerji", "Tum", "1 Saat PS 3/4"],
+      "price": "10",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-5",
+      "name": "KVADRAT SET",
+      "products": ["4 Şaurma", "1L Kola", "1 Saat PS 3/4"],
+      "price": "18",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-6",
+      "name": "FİFA SET",
+      "products": ["2 Dönər", "2 Enerji", "Tum", "1 Saat PS 3/4"],
+      "price": "9",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-7",
+      "name": "DADLI SET",
+      "products": ["2 Free", "2 Nuggets", "1L Kola"],
+      "price": "10",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-8",
+      "name": "TƏLƏBƏ SET",
+      "products": ["Çipsi", "1L Kola", "1 Saat PS 3/4"],
+      "price": "7",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-9",
+      "name": "SQUİD SET",
+      "products": ["4 Cheekenburger", "4 Bizon", "2 Saat PS 3/4"],
+      "price": "20",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-10",
+      "name": "YUMRU SET BALACA",
+      "products": ["1 Qarışıq Pizza", "4 Bizon", "1 Saat PS 3/4"],
+      "price": "16",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-11",
+      "name": "YUMRU SET BÖYÜK",
+      "products": ["1 Margaritta", "1 Qarışıq Pizza", "2L Kola"],
+      "price": "22",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-12",
+      "name": "KOMBO SET",
+      "products": ["4 Enerji", "Çipsi", "Tum", "1 Saat PS 3/4"],
+      "price": "12",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-13",
+      "name": "QƏLYAN SET",
+      "products": ["1L Kola", "Çipsi", "Qəlyan", "1 Saat PS 3/4"],
+      "price": "16",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-14",
+      "name": "TƏLƏBƏ SET",
+      "products": ["2L Kola", "2 Dönər", "2 Free", "2 Saat PS 3/4"],
+      "price": "19",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-15",
+      "name": "FREESTİLE SET",
+      "products": ["2L Kola", "Tum", "Qəlyan", "2 Saat PS 3/4", "ÇAY HƏDİYYƏ"],
+      "price": "20",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-16",
+      "name": "FOOTBOLL SET",
+      "products": [
+        "4 Enerji",
+        "2 Çipsi",
+        "2 Tum",
+        "2 Suxarı",
+        "1 Popkorun",
+        "1 Free",
+        "Qəlyan"
+      ],
+      "price": "24.90",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-17",
+      "name": "FULL SET",
+      "products": [
+        "6 Enerji",
+        "2 Çipsi",
+        "2 Tum",
+        "2 Suxari",
+        "2 Popcorn",
+        "2 Free",
+        "2 Nuggets",
+        "1 Fıstıq",
+        "Qəlyan"
+      ],
+      "price": "49",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "set-18",
+      "name": "AD GÜNÜ SET",
+      "products": [
+        "2 Pizza",
+        "4 Burger",
+        "4 Şaurma",
+        "2 ədəd 2L Kola",
+        "Qəlyan",
+        "Çay və PS 3/4 (HƏDİYYƏ) "
+      ],
+      "price": "99",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "set"
+    },
+    {
+      "id": "1",
+      "name": "Dönər (toyuq)",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "2",
+      "name": "Dönər (ət)",
+      "price": "3.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "3",
+      "name": "Şaurma (toyuq)",
+      "price": "4",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "4",
+      "name": "Şaurma (ət)",
+      "price": "4.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "5",
+      "name": "Free",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "6",
+      "name": "Nuggest",
+      "price": "4",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "7",
+      "name": "Cheeseburger",
+      "price": "6",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "8",
+      "name": "Chickenburger",
+      "price": "5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "9",
+      "name": "Squidburger",
+      "price": "9",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "10",
+      "name": "Lahmacun (sadə)",
+      "price": "3.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "11",
+      "name": "Pide (qiymə)",
+      "price": "7",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "fast food"
+    },
+    {
+      "id": "12",
+      "name": "Margarita",
+      "price": "9",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "pizza"
+    },
+    {
+      "id": "13",
+      "name": "Qarışıq",
+      "price": "12",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "pizza"
+    },
+    {
+      "id": "14",
+      "name": "Çay+şokalad",
+      "price": "5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "İsti içki"
+    },
+    {
+      "id": "15",
+      "name": "Çay çaynik",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "İsti içki"
+    },
+    {
+      "id": "16",
+      "name": "Koffe",
+      "price": "1",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "İsti içki"
+    },
+    {
+      "id": "17",
+      "name": "Cappucino",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "İsti içki"
+    },
+    {
+      "id": "18",
+      "name": "İsdi şokalad",
+      "price": "1.7",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "İsti içki"
+    },
+    {
+      "id": "19",
+      "name": "Cola (1L)",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "20",
+      "name": "Cola (2L)",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "21",
+      "name": "Cola stəkan",
+      "price": "0.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "22",
+      "name": "Fanta (1L)",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "23",
+      "name": "Sprite (0.3L)",
+      "price": "1.2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "24",
+      "name": "İce tea",
+      "price": "2.2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "25",
+      "name": "Bizon (böyük)",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "26",
+      "name": "Bizon (balaca)",
+      "price": "1.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "27",
+      "name": "Full energy",
+      "price": "1.3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "28",
+      "name": "Su qazlı,qazsız (0.5L)",
+      "price": "1",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "29",
+      "name": "Ayran",
+      "price": "1",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Soyuq içki"
+    },
+    {
+      "id": "30",
+      "name": "Şokalat (list)",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "31",
+      "name": "Snikers",
+      "price": "2.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "32",
+      "name": "Bounty",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "33",
+      "name": "Rulet",
+      "price": "2.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "34",
+      "name": "Mürəbbə (ağ gilas,çiyələk)",
+      "price": "5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "35",
+      "name": "Mürəbbə (zoğal,moruq)",
+      "price": "6",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Şirniyyat"
+    },
+    {
+      "id": "36",
+      "name": "Ağ tum",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "37",
+      "name": "Çips lays",
+      "price": "3.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "37",
+      "name": "Çips doritos",
+      "price": "3.5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "38",
+      "name": "Suxari",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "39",
+      "name": "Popcorn",
+      "price": "2",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "40",
+      "name": "Fıstık",
+      "price": "5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "41",
+      "name": "Araxis",
+      "price": "3",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "42",
+      "name": "Fındıq",
+      "price": "4",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "43",
+      "name": "Qoz",
+      "price": "5",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "44",
+      "name": "Kişmiş (ağ,qara)",
+      "price": "4",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "45",
+      "name": "Badam",
+      "price": "4",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "46",
+      "name": "Çərəz seti",
+      "price": "12",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Məzə"
+    },
+    {
+      "id": "47",
+      "name": "Saxsı",
+      "price": "12",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Shisha"
+    },
+    {
+      "id": "48",
+      "name": "Qreyfut",
+      "price": "17",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Shisha"
+    },
+    {
+      "id": "49",
+      "name": "Ananas",
+      "price": "25",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Shisha"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 
 .catContainer h1 {
   font-size: max(1vw, 4vw);
+  color: #f5f5f5;
 }
 
 #hideFalse::-webkit-scrollbar {
@@ -143,8 +144,7 @@
   cursor: pointer;
 }
 
-
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 920px) {
   .catContainer h1 {
     font-size: 5vw;
   }
@@ -164,7 +164,7 @@
   .text p {
     font-size: 3vw;
   }
-  
+
   .child {
     padding: 2vw 4vw;
     font-size: 2.8vw;
@@ -177,12 +177,11 @@
   .icon {
     font-size: 2.5vw;
   }
-
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   #hideFalse {
     height: 15vw;
-    overflow-y:hidden
+    overflow-y: hidden;
   }
 }

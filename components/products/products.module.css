@@ -45,7 +45,7 @@
 .text {
   display: flex;
   flex-direction: column;
-  color: #212529;
+  color: #fff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -64,8 +64,7 @@
   color: #ef0e0e;
 }
 
-
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 920px) {
   .container h1 {
     font-size: 6vw;
   }
@@ -78,11 +77,11 @@
   .text h2 {
     font-size: 4vw;
   }
-  
+
   .text span {
     font-size: 2.2vw;
   }
-  
+
   .text p {
     font-size: 3.5vw;
   }
@@ -92,7 +91,7 @@
   }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .image {
     width: 35vw;
     height: 41vw;
@@ -101,11 +100,11 @@
   .text h2 {
     font-size: 4.1vw;
   }
-  
+
   .text span {
     font-size: 2.7vw;
   }
-  
+
   .text p {
     font-size: 3.7vw;
   }

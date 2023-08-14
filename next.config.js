@@ -3,6 +3,14 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['images.pexels.com'],
+    domains: ["th.bing.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "th.bing.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
-}
+};

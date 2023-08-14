@@ -16,13 +16,13 @@
 .textContainer h1 {
   font-size: max(2vw, 5vw);
   font-weight: 800;
-  color: #474747;
+  color: red;
 }
 
 .textContainer p {
   font-size: max(1vw, 2vw);
   font-weight: 500;
-  color: #474747;
+  color: #fff;
 }
 
 .inputContainer {
@@ -80,9 +80,9 @@
   }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .inputContainer {
-    width:85%;
+    width: 85%;
   }
 
   .icon {

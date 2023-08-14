@@ -5,51 +5,32 @@ import { useDispatch } from "react-redux";
 import { getCategory } from "../../redux/categorieReducer";
 
 const categories = [
-  "Səhər Yeməyi",
-  "Şorbalar",
-  "Soyuq Qəlyanaltı",
-  "Pendirlər",
-  "Salatlar",
-  "İsti Qəlyanaltılar",
-  "Pizzalar",
-  "Pidelər",
-  "Türk Kababları",
-  "Ana Yeməklər",
-  "Qarnirlər ",
-  "Qazan Yeməkləri",
-  "Tava Yeməkləri",
-  "Xəmir Yeməkləri",
-  "Saclar",
-  "Təndir Yeməkləri",
-  "Kabablar",
-  "Şirniyyatlar ",
-  "İsti İçkilər",
-  "Soyuq İçkilər",
+  "Pizza",
+  "Fast food",
+  "Şirniyyat",
+  "İsti içki",
+  "Soyuq içki",
+  "Set",
+  "Shisha",
 ];
 
 const Categories = () => {
-  const [cate, setCate] = useState("Səhər Yeməyi");
-  const [hide, setHide] = useState(false);
-  const dispatch = useDispatch()
+  const [cate, setCate] = useState("Set");
+  const dispatch = useDispatch();
 
-
-  useEffect(()=>{
-    dispatch(getCategory(cate))
-  },[dispatch,cate])
+  useEffect(() => {
+    dispatch(getCategory(cate));
+  }, [dispatch, cate]);
 
   return (
     <div className={styles.catContainer}>
       <h1>Kateqoriyalar</h1>
-      <div className={styles.smallCat}
-      id={!hide ? styles.hideFalse : styles.hideActive}
-      >
+      <div className={styles.smallCat} id={styles.hideFalse}>
         {categories.map((cat, index) => (
           <pre
-            onClick={() =>  setCate(cat)}
+            onClick={() => setCate(cat)}
             className={
-              cate !== cat
-                ? styles.smallCatChild
-                : styles.smallCatChildActive
+              cate !== cat ? styles.smallCatChild : styles.smallCatChildActive
             }
             key={index}
           >
@@ -58,15 +39,7 @@ const Categories = () => {
         ))}
       </div>
       <div className={styles.hideCat}>
-        <div className={styles.text} onClick={() => setHide(!hide)}>
-          <p>Hamısına Bax</p>
-          {!hide ? (
-            <BsChevronDown className={styles.icon} />
-          ) : (
-            <BsChevronUp className={styles.icon} />
-          )}
-        </div>
-        <div className={hide ? styles.childCatActive : styles.childCat}>
+        <div className={styles.childCat}>
           {categories.map((cat, index) => (
             <pre
               className={cat !== cate ? styles.child : styles.activeChild}
