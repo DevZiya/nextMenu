@@ -10,7 +10,7 @@ const Footer = () => {
         <div className={styles.icon}>
           <BsTelephone />
         </div>
-        <span>070-879-60-14</span>
+        <span>077-740-00-76</span>
         <a
           href="https://www.instagram.com/squidgame_baku/"
           className={styles.icon}

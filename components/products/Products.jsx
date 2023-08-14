@@ -54,7 +54,7 @@ const Products = () => {
               <div key={item.id} className={styles.product}>
                 <div className={styles.image}>
                   <Image
-                    src={item.img}
+                    src={item.image}
                     layout="fill"
                     objectFit="cover"
                     alt={item.name}
@@ -63,8 +63,11 @@ const Products = () => {
                 </div>
                 <div className={styles.text}>
                   <h2>{item.name}</h2>
-                  <span>{item.set}</span>
-                  <p>{item.price}</p>
+                  {item?.products &&
+                    item?.products?.map((item, index) => (
+                      <span key={index}>{item}</span>
+                    ))}
+                  <p>{item.price} AZN</p>
                 </div>
               </div>
             ))}
