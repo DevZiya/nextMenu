@@ -526,6 +526,20 @@
       "price": "25",
       "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
       "category": "Shisha"
+    },
+    {
+      "id": "50",
+      "name": "Çarx",
+      "price": "Ümumi hesab 5 azn-dən yuxarı olduqda hədiyyə qazan",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Kampaniyalar"
+    },
+    {
+      "id": "51",
+      "name": "Çarx",
+      "price": "Call of duty level 20-ni keç hədiyyələr qazan",
+      "image": "https://th.bing.com/th/id/OIG.ggm4Dm.5rrOdfpq62H3s?pid=ImgGn",
+      "category": "Kampaniyalar"
     }
   ]
 }

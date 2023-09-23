@@ -46,7 +46,10 @@ const Products = () => {
                     item?.products?.map((item, index) => (
                       <span key={index}>{item}</span>
                     ))}
-                  <p>{item.price} AZN</p>
+                  <p>
+                    {item.price}{" "}
+                    {item?.category !== "Kampaniyalar" ? "AZN" : ""}
+                  </p>
                 </div>
               </div>
             ))
@@ -67,7 +70,10 @@ const Products = () => {
                     item?.products?.map((item, index) => (
                       <span key={index}>{item}</span>
                     ))}
-                  <p>{item.price} AZN</p>
+                  <p>
+                    {item.price}{" "}
+                    {item?.category !== "Kampaniyalar" ? "AZN" : ""}
+                  </p>
                 </div>
               </div>
             ))}

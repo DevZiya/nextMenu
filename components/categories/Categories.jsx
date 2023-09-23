@@ -12,6 +12,7 @@ const categories = [
   "Soyuq içki",
   "Set",
   "Shisha",
+  "Kampaniyalar",
 ];
 
 const Categories = () => {
